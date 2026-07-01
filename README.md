@@ -1,6 +1,6 @@
 # Project Title
 
-Compute pairwise correlation of proteins
+Pairwise correlation of proteins
 
 ## Description
 
@@ -12,7 +12,7 @@ Output file has various worksheets including the input dataset, cleansed dataset
 
 The notebook has three cells, first one contains the configuration parameters while the last one carries out the various steps of the pipeline.
 
-This notebook app can also be run on Google Colab and the middle cell has the necessary initialization steps for its run in Google Volab. Briefly, this cell clones the GitHub repository in the Colab environment as a folder, epithelial_cell_adhesion, under the "content" folder. 
+This notebook app can also be run on Google Colab and the middle cell has the necessary initialization steps for its run in Google Colab. Briefly, this cell clones the GitHub repository in the Colab environment as a folder, epithelial_cell_adhesion, under the "content" folder. 
 
 The 2nd cell of this app is mute when run as a local Anaconda desktop app, but is active when the app is invoked within the Google Colab environment.
 #       
@@ -33,14 +33,13 @@ The application was tested with Anaconda (version below) on Windows 11 version 2
 * anaconda-navigator  	2.6.3		py39haa95532_0
 * anaconda-project    	0.11.1		py39haa95532_0
 
-
+The application was also tested within the Google Colab environment.
 
 ### Installing
 
-* GitHub repo: 
-*	github.com/utry2findme101/epithelial_cell_adhesion
+* GitHub repo: github.com/utry2findme101/epithelial_cell_adhesion
  
-### Download and execute on a desktop with Anaconda
+### Option 1: Download and execute on a desktop with Anaconda
 
 * Download the zip from GitHub:
 
@@ -51,12 +50,15 @@ The application was tested with Anaconda (version below) on Windows 11 version 2
 
 * How to run the program
 
-	* Launch AJupyter Notebook
+	* Launch Jupyter Notebook
 	* Navigate to the unzipped folder
 	* Navigate tot he subfolder "notebooks."
 	* Pull down "Cell" and hit "Run All."
+	* The results Excel file @ data/final/pair_wise_correlations.xlsx 
 
-### Clone and run on Google Colab
+
+
+### Option 2: Clone and run on Google Colab
 
 * Go to url: https://colab.research.google.com/
 * Under Open notebook, click "GitHub."
@@ -66,6 +68,8 @@ The application was tested with Anaconda (version below) on Windows 11 version 2
 * At this point, the notebook opens up in Google Colab.
 * Click "Run All" to run all cells in sequence
 * Click "Run anyway" in the next "Warning"" display
+* The results Excel file @ data/final/pair_wise_correlations.xlsx 
+* Note: Each "Run All" clones the repo all over and recomputes the results.
 
 ## Help
 
