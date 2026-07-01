@@ -19,17 +19,15 @@ Output file has various worksheets including the input dataset, cleansed and pai
 
 The application was tested with Anaconda (version below) on Windows 11 version 25H2 (OS build 26200.8655). It can also be run on GoogleColab (see insuructions under "HOW TO" below).
 
-# Name                    Version                   Build  Channel
-_anaconda_depends         2022.10                  py39_2
-anaconda                  custom                   py39_3
-anaconda-anon-usage       0.5.0            py39h8ddfbff_0
-anaconda-client           1.11.0           py39haa95532_0
-anaconda-navigator        2.6.3            py39haa95532_0
-anaconda-project          0.11.1           py39haa95532_0
+* Name                    Version                   Build  Channel
+* _anaconda_depends         2022.10                  py39_2
+* anaconda                  custom                   py39_3
+* anaconda-anon-usage       0.5.0            py39h8ddfbff_0
+* anaconda-client           1.11.0           py39haa95532_0
+* anaconda-navigator        2.6.3            py39haa95532_0
+* anaconda-project          0.11.1           py39haa95532_0
 
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
 
 ### Installing
 
@@ -39,27 +37,27 @@ anaconda-project          0.11.1           py39haa95532_0
 
 * Download the zip from GitHub:
 
-a Launch the GitHub repository.
-b Click the green Code button located on the right side above the file list.
-c Click Download ZIP from the dropdown menu.
-d Extract the downloaded .zip file on your computer to view the files.
+	* Launch the GitHub repository.
+	* Click the green Code button located on the right side above the file list.
+	* Click Download ZIP from the dropdown menu.
+	* Extract the downloaded .zip file on your computer to view the files.
 
 * How to run the program
 
-a Launch AJupyter Notebook
-b Navigate to the unzipped folder
-c Navigate tot he subfolder "notebooks."
-d Pull down "Cell" and hit "Run All."
+	* Launch AJupyter Notebook
+	* Navigate to the unzipped folder
+	* Navigate tot he subfolder "notebooks."
+	* Pull down "Cell" and hit "Run All."
 
 ### Executing on Google Colab
 
-a Go to url: https://colab.research.google.com/
-b Under Open notebook, click "GitHub."
-c in the next box enter the GitHub URL below and press enter:
+* Go to url: https://colab.research.google.com/
+* Under Open notebook, click "GitHub."
+* in the next box enter the GitHub URL below and press enter:
     github.com/utry2findme101/epithelial_cell_adhesion
-d Click 01_pairwise_correlation.ipynb
-e At this point, the notebook opens up in Google Colab.
-f Click "Run All" to run all cells in sequene
+* Click 01_pairwise_correlation.ipynb
+* At this point, the notebook opens up in Google Colab.
+* Click "Run All" to run all cells in sequene
 
 ## Help
 
@@ -75,6 +73,18 @@ Ray Kresman kresman@bgsu.edu
 Carol A. Heckman heckman@bgsu.edu
 
 ## Version History
+
+* 0.1
+    * Initial Release
+
+## License
+
+This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+
+## Acknowledgments
+
+Inspiration, code snippets, etc.
+* [awesome-readme](https://github.com/matiassingers/awesome-readme)
 
 * 0.1
     * Initial Release
